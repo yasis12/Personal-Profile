@@ -1,3 +1,156 @@
-h1 {
-    color: red;
-}
+body { 
+    background-color: #F2E2CE;
+      color: #0A0D0D;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30% 30%;
+    margin: 100px
+  }
+  .header{
+    text-align: center;
+    text-decoration: underline dotted;
+    color: #0A0D0D;
+    text-shadow: px px px red, 0 0 1em blue, 0 0 0.2em blue;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left:5px solid black;
+    border-right:5px solid black;
+  }
+    /* test animation */
+  .header {
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    animation-name: header-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes header-animation {
+      from {background-color: red;}
+    to {background-color: yellow;}
+      0% {
+          color: blue;
+      }
+      33% {
+          color: tomato;
+      }
+      66% {
+          color: green;
+      }
+      100% {
+          color: purple;
+      }
+  }
+  }
+  /* end test */
+   
+  .under-header{
+    text-align: center;
+    font-size: 12px;
+  }
+  .exp-header {
+    text-align: center;
+    text-transform: Uppercase;
+    color: #0A0D0D;
+    text-shadow: px px px red, 0 0 1em blue, 0 0 0.2em blue;
+    text-decoration: underline;
+  }
+  .all-over h4 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .all-over h5 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .all-over h6 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .all-over ul {
+    font-size: 12px;
+    text-align: left;
+    margin: 1;
+  }
+  .statefarm h4 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .statefarm h5 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .statefarm h6 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .statefarm ul {
+    font-size: 12px;
+    text-align: left;
+    margin: 1
+  }
+  .education h5 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .education h6 {
+    font-size: 13px;
+    text-align: left;
+    margin: 0
+  }
+  .education ul {
+    font-size: 12px;
+    margin: 1
+  }
+  .skills ul {
+    font-size: 12px;
+    text-align: left;
+    margin: 0
+  }
+  .education-header {
+    text-align: center;
+    text-transform: Uppercase;
+    color: #0A0D0D;
+    text-shadow: px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+     text-decoration: underline;
+  }
+  
+  .skills-header {
+    text-align: center;
+    text-transform: Uppercase;
+    color: #0A0D0D;
+    text-shadow: px 1p;
+     text-decoration: underline;
+  }
+  
+  .free-time-header {
+    text-align: center;
+    text-transform: Uppercase;
+    color: #0A0D0D;
+    text-shadow: px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+     text-decoration: underline;
+  }
+  
+  .column {
+    float: right;
+    width: 30%;
+    padding: 3px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 12px
+  }
